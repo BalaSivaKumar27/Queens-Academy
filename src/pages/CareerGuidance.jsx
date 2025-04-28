@@ -3,12 +3,12 @@ import { GraduationCap, BookOpen, Users, Trophy, ChevronRight } from 'lucide-rea
 
 function CareerGuidance() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#1E1B4B] via-[#6B46C1] to-[#D53F8C] mb-7 mt-14">
+    <div className="min-h-screen bg-gradient-to-br from-[#1E1B4B] via-[#6B46C1] to-[#D53F8C]">
       {/* Hero Section */}
-      <section id="careerguidance" className="pt-24 pb-12  bg-gradient-to-br from-[#2A1E5E] via-[#6B46C1] to-[#D53F8C]">
+      <section id="careerguidance" className="pt-24 pb-12 bg-gradient-to-br from-[#2A1E5E] via-[#6B46C1] to-[#D53F8C]">
         <div className="container px-6 py-16 mx-auto">
           <div className="flex flex-col items-center md:flex-row ">
-            <div className="mb-8 md:w-1/2 md:mb-0 ">
+            <div className="mb-8 md:w-1/2 md:mb-0">
               <h1 className="mb-6 text-5xl font-extrabold text-white bg-gradient-to-r from-[#F472B6] to-[#9F7AEA] bg-clip-text ">
                 Career Guidance at Queens Academy
               </h1>
@@ -25,9 +25,9 @@ function CareerGuidance() {
               </div>
             </div>
             <div className="md:w-1/2">
-              <img
-                src="https://images.unsplash.com/photo-1507680469671-7cac70a2fbaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
-                alt="Career counseling"
+              <img 
+                src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80" 
+                alt="Students studying" 
                 className="transition duration-500 transform shadow-2xl rounded-xl hover:scale-105"
               />
             </div>
@@ -90,7 +90,7 @@ function CareerGuidance() {
                 title: 'Tech Career Bootcamp',
                 desc: 'Hands-on training for IT and software development careers.',
                 date: 'April 2025',
-                image: 'https://images.unsplash.com/photo-1501854140801-50d038201746?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
               },
             ].map((workshop, index) => (
               <div
@@ -150,8 +150,8 @@ function CareerGuidance() {
           <p className="mb-8 text-lg text-gray-200">
             Book a session with our career advisors to kickstart your journey.
           </p>
-          <button className="px-8 py-3 text-white transition duration-300 transform rounded-full shadow-lg bg-gradient-to-r from-[#F472B6] to-[#9F7AEA] hover:from-[#D53F8C] hover:to-[#6B46C1] hover:scale-105">
-            Book Now <ChevronRight className="ml-2" />
+          <button className="px-9 py-3 text-white transition duration-300 transform rounded-full shadow-lg bg-gradient-to-r from-[#F472B6] to-[#9F7AEA] hover:from-[#D53F8C] hover:to-[#6B46C1] hover:scale-105">
+            Book Now <ChevronRight className="ml-1"/>
           </button>
         </div>
       </section>
